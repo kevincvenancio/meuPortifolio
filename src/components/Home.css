@@ -269,6 +269,15 @@
   margin: 0 auto 1.5rem;
   position: relative;
 }
+.avatar-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+  position: relative;
+  z-index: 2;
+}
 
 .avatar-icon {
   font-size: 4rem;
@@ -328,7 +337,6 @@
   transform: translateY(-3px);
 }
 
-/* About Section */
 .about-section {
   padding: 6rem 0;
   background: linear-gradient(135deg, #f8f9fa, #e9ecef);
@@ -443,7 +451,6 @@
   box-shadow: 0 5px 15px rgba(255, 107, 53, 0.3);
 }
 
-/* Experience Section */
 .experience-section {
   padding: 6rem 0;
   background: white;
@@ -555,7 +562,6 @@
   border: 1px solid #e9ecef;
 }
 
-/* Achievements Section */
 .achievements-section {
   padding: 6rem 0;
   background: linear-gradient(135deg, #f8f9fa, #e9ecef);
@@ -609,7 +615,6 @@
   line-height: 1.6;
 }
 
-/* Interests Section */
 .interests-section {
   padding: 6rem 0;
   background: white;
@@ -648,7 +653,7 @@
   color: white;
 }
 
-/* CTA Section */
+
 .cta-section {
   padding: 6rem 0;
   background: linear-gradient(135deg, #ff6b35, #f7931e);
@@ -708,7 +713,6 @@
   }
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
   .hero-content {
     grid-template-columns: 1fr;
@@ -765,4 +769,5 @@
   .container {
     padding: 0 1rem;
   }
+  
 }

@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin, FaCode, FaGraduationCap, FaBriefcase, FaTrophy, F
 import { personalInfo } from '../data/data';
 import ItuberAnimation from './ItuberAnimation';
 import './Home.css';
+import profilePhoto from '../assets/fotoitau.jpg';
 
 const Home = () => {
   const [showItuber, setShowItuber] = useState(true);
@@ -91,7 +92,7 @@ const Home = () => {
           <div className="hero-image">
             <div className="profile-card">
               <div className="profile-avatar">
-                <FaCode className="avatar-icon" />
+                <img src={profilePhoto} alt="Foto de Perfil" className="avatar-photo" />
                 <div className="avatar-ring"></div>
               </div>
               <div className="profile-info">
@@ -111,7 +112,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* sessao do sobre */}
       <section id="about" className="about-section">
         <div className="container">
           <h2 className="section-title">
@@ -155,7 +156,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Experience Section */}
+      {/* experieencia */}
       <section className="experience-section">
         <div className="container">
           <h2 className="section-title">
@@ -186,7 +187,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Achievements Section */}
       <section className="achievements-section">
         <div className="container">
           <h2 className="section-title">
@@ -206,7 +206,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Interests Section */}
+      {/* interesse */}
       <section className="interests-section">
         <div className="container">
           <h2 className="section-title">
@@ -232,7 +232,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">

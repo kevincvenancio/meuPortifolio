@@ -98,7 +98,7 @@ const ProjectDetail = () => {
   );
 };
 
-// Função para obter funcionalidades específicas de cada projeto
+// funcao para obter funcionalidades especificas de cada projeto
 const getProjectFeatures = (projectName) => {
   const features = {
     'BlogCLT': [
@@ -134,7 +134,7 @@ const getProjectFeatures = (projectName) => {
   return features[projectName] || ['Funcionalidades específicas do projeto'];
 };
 
-// Função para obter descrição das tecnologias
+// função para obter descricao das tecnologias
 const getTechDescription = (tech) => {
   const descriptions = {
     'Python': 'Linguagem de programação principal',

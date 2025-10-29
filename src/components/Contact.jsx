@@ -25,7 +25,7 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simular envio do formulário
+    // simular envio do formulario
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitStatus('success');
@@ -36,7 +36,7 @@ const Contact = () => {
         message: ''
       });
       
-      // Limpar status após 3 segundos
+      // limpar status apos 3 segunds
       setTimeout(() => {
         setSubmitStatus(null);
       }, 3000);
@@ -62,7 +62,7 @@ const Contact = () => {
                 <FaEnvelope className="contact-icon" />
                 <div>
                   <h4>Email</h4>
-                  <p>kevin.venancio@email.com</p>
+                  <p>kevincvenancio@gmail.com</p>
                 </div>
               </div>
               
@@ -70,7 +70,7 @@ const Contact = () => {
                 <FaPhone className="contact-icon" />
                 <div>
                   <h4>Telefone</h4>
-                  <p>+55 (11) 99999-9999</p>
+                  <p>+55 (11) 93951-0756</p>
                 </div>
               </div>
               

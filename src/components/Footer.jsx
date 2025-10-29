@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>
-              © {currentYear} Kevin Carvalho Venancio. Feito com <FaHeart className="heart-icon" /> e <FaCode className="code-icon" />
+              © {currentYear} Kevin Carvalho Venancio
             </p>
             <p className="footer-location">
               São Paulo, SP - Brasil

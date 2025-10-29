@@ -150,4 +150,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Desenvolvido com ❤️ por Kevin Carvalho Venancio
+Desenvolvido com por Kevin Carvalho Venancio

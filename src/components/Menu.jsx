@@ -19,7 +19,7 @@ const Menu = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo" onClick={closeMenu}>
-          Kevin Carvalho
+          
         </Link>
         
         <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
