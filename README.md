@@ -155,7 +155,7 @@ src/
 
 ## 👨‍💻 Sobre o Desenvolvedor
 
-**Kevin Carvalho Venancio**  
+**Kevin Carvalho Venancio**  (RM: 561459) 
 🎓 Estudante de Engenharia de Software — FIAP (2º semestre)  
 💼 Estagiário de Desenvolvimento Backend no Itaú Unibanco  
 💻 Experiência com **Java**, **Spring Boot**, **Python**, **FastAPI**, **React**  
