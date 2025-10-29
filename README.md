@@ -2,9 +2,7 @@
 
 Um portfólio moderno desenvolvido em React, apresentando projetos, habilidades e informações de contato.
 
-[![Deploy to GitHub Pages](https://github.com/kevincvenancio/portfolio-react/actions/workflows/deploy.yml/badge.svg)](https://github.com/kevincvenancio/portfolio-react/actions/workflows/deploy.yml)
-[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Deploy na Vercel](https://meu-portifolio-sksn.vercel.app/projects)
 
 ## 🚀 Funcionalidades
 
