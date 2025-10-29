@@ -1,153 +1,179 @@
-# Portfólio Kevin Carvalho Venancio
+# 💼 Portfólio — Kevin Carvalho Venancio
 
-Um portfólio moderno desenvolvido em React, apresentando projetos, habilidades e informações de contato.
+Um portfólio moderno e responsivo desenvolvido em **React**, apresentando projetos, habilidades e informações de contato de forma elegante e interativa.
 
-[![Deploy to GitHub Pages](https://github.com/kevincvenancio/portfolio-react/actions/workflows/deploy.yml/badge.svg)](https://github.com/kevincvenancio/portfolio-react/actions/workflows/deploy.yml)
-[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+🌐 **Acesse o projeto online:**  
+👉 [meu-portifolio-sksn.vercel.app](https://meu-portifolio-sksn.vercel.app/)
+
+---
 
 ## 🚀 Funcionalidades
 
-- **Menu responsivo** com navegação por rotas
-- **Página inicial** com apresentação pessoal e skills
-- **Lista de projetos** com barra de busca e renderização condicional
-- **Detalhes dos projetos** com rotas dinâmicas
-- **Formulário de contato** funcional
-- **Links para mídias sociais** (GitHub, LinkedIn)
-- **Design moderno** com cores laranja e gradientes
-- **Totalmente responsivo** para mobile e desktop
-- **Animação de entrada** "Sou Ituber"
-- **Animações modernas** e efeitos visuais
+- 🧭 **Menu responsivo** com navegação por rotas  
+- 👨‍💻 **Apresentação pessoal** e seção de skills  
+- 🧩 **Lista de projetos** com barra de busca e renderização condicional  
+- 🔍 **Detalhes de projetos** com rotas dinâmicas  
+- ✉️ **Formulário de contato funcional**  
+- 🌐 **Links para redes sociais** (GitHub e LinkedIn)  
+- 🎨 **Design moderno** com gradientes e cores em tons de laranja  
+- 📱 **Totalmente responsivo** (mobile e desktop)  
+- 💫 **Animações suaves** e efeitos visuais modernos  
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- React 18
-- React Router DOM
-- React Icons
-- CSS3 com Flexbox e Grid
-- JavaScript ES6+
+- ⚛️ **React 18**
+- 🧭 **React Router DOM**
+- 🎨 **React Icons**
+- 💅 **CSS3 com Flexbox e Grid**
+- ⚙️ **JavaScript ES6+**
 
-## 📦 Instalação e Execução
+---
+
+## 📦 Instalação e Execução Local
 
 1. **Clone o repositório:**
-```bash
-git clone https://github.com/kevincvenancio/portfolio-react.git
-cd portfolio-react
-```
+   ```bash
+   git clone https://github.com/kevincvenancio/portfolio-react.git
+   cd portfolio-react
+   ```
 
 2. **Instale as dependências:**
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. **Execute o projeto:**
+   ```bash
+   npm start
+   # ou
+   npm run dev
+   ```
+
+4. **Acesse no navegador:**
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🌍 Deploy
+
+O projeto está hospedado na **Vercel**:
+
+🔗 [https://meu-portifolio-sksn.vercel.app/](https://meu-portifolio-sksn.vercel.app/)
+
+### 🚧 Deploy Alternativo (GitHub Pages)
+
+#### Opção 1: Manual
 ```bash
-npm start
-# ou
-npm run dev
-```
-
-4. **Abra no navegador:**
-```
-http://localhost:3000
-```
-
-## 🌐 Deploy no GitHub Pages
-
-### Opção 1: Deploy Manual
-```bash
-# Instalar gh-pages
 npm install --save-dev gh-pages
-
-# Fazer deploy
 npm run deploy
 ```
 
-### Opção 2: Deploy Automático
-O projeto já está configurado com GitHub Actions para deploy automático:
+#### Opção 2: Automático (GitHub Actions)
 - Faça push para a branch `main`
-- O deploy acontece automaticamente
+- O deploy é feito automaticamente  
 - Acesse: `https://kevincvenancio.github.io/portfolio-react`
+
+---
 
 ## 🎨 Características do Design
 
-- **Cores principais**: Gradientes de laranja (#ff6b35, #f7931e)
-- **Tipografia**: Sistema de fontes do sistema operacional
-- **Layout**: Grid e Flexbox para responsividade
-- **Animações**: Transições suaves e hover effects
-- **Ícones**: React Icons para consistência visual
-- **Glassmorphism**: Efeitos de vidro nos cards
-- **Timeline**: Linha do tempo interativa para experiência
+- **Cores principais:** Gradientes em tons de laranja `#ff6b35` e `#f7931e`  
+- **Tipografia:** Fontes do sistema para melhor performance  
+- **Layout:** Baseado em **Grid** e **Flexbox**  
+- **Animações:** Transições suaves e efeitos de hover  
+- **Ícones:** Via `react-icons`  
+- **Glassmorphism:** Aplicado em seções e cards  
+- **Timeline interativa:** Mostrando experiências e conquistas  
+
+---
 
 ## 📱 Responsividade
 
-O portfólio é totalmente responsivo e funciona perfeitamente em:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (até 767px)
+O portfólio adapta-se automaticamente a diferentes dispositivos:
 
-## 🔧 Estrutura do Projeto
+- 💻 **Desktop:** 1200px+  
+- 📱 **Tablet:** 768px – 1199px  
+- 📞 **Mobile:** até 767px  
+
+---
+
+## 🧩 Estrutura do Projeto
 
 ```
 src/
 ├── components/
-│   ├── Menu.jsx & Menu.css
-│   ├── Home.jsx & Home.css
-│   ├── Projects.jsx & Projects.css
-│   ├── ProjectDetail.jsx & ProjectDetail.css
-│   ├── Contact.jsx & Contact.css
-│   ├── Footer.jsx & Footer.css
-│   └── ItuberAnimation.jsx & ItuberAnimation.css
+│   ├── Menu.jsx / Menu.css
+│   ├── Home.jsx / Home.css
+│   ├── Projects.jsx / Projects.css
+│   ├── ProjectDetail.jsx / ProjectDetail.css
+│   ├── Contact.jsx / Contact.css
+│   ├── Footer.jsx / Footer.css
+│   └── ItuberAnimation.jsx / ItuberAnimation.css
 ├── data/
 │   └── data.js
-├── App.jsx & App.css
-├── index.jsx & index.css
+├── App.jsx / App.css
+├── index.jsx / index.css
 └── public/
     ├── index.html
     └── manifest.json
 ```
 
+---
+
 ## 📄 Páginas
 
-- **/** - Página inicial com apresentação pessoal
-- **/projects** - Lista de projetos com busca
-- **/projects/:id** - Detalhes específicos de cada projeto
-- **/contact** - Formulário de contato
+| Rota | Descrição |
+|------|------------|
+| `/` | Página inicial com apresentação pessoal |
+| `/projects` | Lista de projetos com barra de busca |
+| `/projects/:id` | Página de detalhes do projeto |
+| `/contact` | Formulário de contato |
+
+---
 
 ## 🎯 Funcionalidades Implementadas
 
 ✅ Menu com rotas  
-✅ Lista de projetos com barra de pesquisa  
-✅ Renderização condicional ("Nenhum projeto localizado")  
-✅ Rotas dinâmicas para detalhes dos projetos  
+✅ Lista de projetos com busca  
+✅ Renderização condicional (“Nenhum projeto localizado”)  
+✅ Rotas dinâmicas para detalhes  
 ✅ Formulário de contato funcional  
 ✅ Links para GitHub e LinkedIn  
 ✅ Design moderno com cores laranja  
 ✅ Totalmente responsivo  
-✅ Animação "Sou Ituber" de entrada  
-✅ Animações modernas e efeitos visuais  
+✅ Animação de entrada “Sou Ituber”  
+✅ Efeitos visuais e hover  
 ✅ Seções expandidas (experiência, conquistas, interesses)  
 ✅ Timeline interativa  
-✅ Estatísticas na página inicial  
+✅ Estatísticas na home  
+
+---
 
 ## 👨‍💻 Sobre o Desenvolvedor
 
 **Kevin Carvalho Venancio**  
-- 18 anos
-- Estagiário de Desenvolvimento Backend no Itaú Unibanco
-- Bacharelando em Engenharia de Software na FIAP (2/8)
-- Experiência com Java, Spring Boot, Python e FastAPI
-
-## 📞 Contato
-
-- **GitHub**: [kevincvenancio](https://github.com/kevincvenancio)
-- **LinkedIn**: [kevin-carvalho-venancio](https://linkedin.com/in/kevin-carvalho-venancio)
-- **Email**: kevin.venancio@email.com
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+🎓 Estudante de Engenharia de Software — FIAP (2º semestre)  
+💼 Estagiário de Desenvolvimento Backend no Itaú Unibanco  
+💻 Experiência com **Java**, **Spring Boot**, **Python**, **FastAPI**, **React**  
 
 ---
 
-Desenvolvido com por Kevin Carvalho Venancio
+## 📬 Contato
+
+- **GitHub:** [@kevincvenancio](https://github.com/kevincvenancio)  
+- **LinkedIn:** [kevin-carvalho-venancio](https://www.linkedin.com/in/kevin-carvalho-venancio-7a1a45345/)  
+- **Email:** kevincvenancio@gmail.com  
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença **MIT** — consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+💡 _Desenvolvido por **Kevin Carvalho Venancio**_
